@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<!--
+  Name: Nina Okubo
+  Date: October 16th 2021
+  Section: AC, TAs: Taylor Gotfrid and Ludvig Liljenberg
+
+  This is my index.html page for Creative Project 2 - Yakisoba Recipe.
+  This is a webpage where you can make Yakisoba by following along to the instructions.
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Yakisoba Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap"
+      rel="stylesheet">
+    </head>
+  <body>
+    <section id="intro">
+      <h1>How to Make Yakisoba</h1>
+      <h2>By: Nina Okubo</h2>
+      <p id="servings">(Serves 2-3)</p>
+      <section id="yakisoba-pics">
+        <img class="yakisoba" src="https://live.staticflickr.com/4057/4716936691_f8f46aca80_b.jpg"
+          alt="Close-up of Yakisoba">
+        <p>Click on the image for a suprise! (not a virus)</p>
+        <p>Image Source:
+          <a href=
+            "https://search.creativecommons.org/photos/23519af3-6778-4403-b378-ae808fb76091"
+            > Creative Commons Search
+          </a>
+          by
+          <a href="https://www.flickr.com/photos/60037821@N00"> Fabiano Kai</a>.
+          (under
+          <a href=
+            "https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=rich">
+            CC BY-NC-SA 2.0
+          </a>
+          )
+        </p>
+      </section>
+      <button id="to-follow-along">Click here to follow along while making your
+        Yakisoba!
+      </button>
+    </section><br>
+    <section id="follow-recipe">
+      <section id="ingre-list">
+        <h3>First... Ingredients! (Check off as you gather them!)</h3>
+        <article>
+          <input type="checkbox" id="cabbage-ingre" name="ingredients" value="cabbage">
+          <label for="cabbage-ingre">3 leaves of cabbage</label> <br>
+          <input type="checkbox" id="protein-ingre" name="ingredients" value="protein">
+          <label for="protein-ingre">A little bit of pork (or any other protein)</label> <br>
+          <input type="checkbox" id="noodles-ingre" name="ingredients" value="noodles">
+          <label for="noodles-ingre">250 grams of Yakisoba Noodles</label> <br>
+          <input type="checkbox" id="sauce-ingre" name="ingredients" value="sauce">
+          <label for="sauce-ingre">About 2 Tablespoons of Yakisoba Sauce</label><br>
+        </article>
+        <button id="to-prep">Click here to go to the next step! (preparing ingredients)</button>
+      </section><br>
+      <section id="ingre-prep">
+        <h3>Now Let's Prep the Ingredients!</h3>
+        <ol>
+          <li>Cut the 3 leaves of cabbage into 1 inch by 1 inch squares</li>
+          <li>Cut the pork/protein into very thin 5mm slices</li>
+          <li>Take 250 grams of noodles out of the package and place into a
+            microwave safe container.</li>
+          </ol>
+        <button id="to-start-cooking">Click here to start cooking!</button>
+      </section><br>
+      <section id="start-cooking">
+        <h3>Now Let's Start Cooking!</h3>
+        <article id="cook-veggies">
+          <h4>Vegetables:</h4>
+          <ol>
+            <li>Heat a drizzle of oil in a pan. Then add cabbage/vegetables. Salt and
+              Pepper (only a little)
+            </li>
+            <li>Add 1 teaspoon of water. Stire.</li>
+            <li>Once the veggies are 60% of the way cooked, place the veggies into a
+              separate bowl/plate.
+            </li>
+          </ol>
+        </article>
+        <article id="cook-meat">
+          <h4>Meat/Protein:</h4>
+          <ol>
+            <li>If the pan is not dry, do not oil and move onto the next step.
+              If it is dry, add oil then continue
+            </li>
+            <li>Add meat to the pan, salt and pepper</li>
+            <li>Once the meat is cooked, place the meat into a separate bowl.</li>
+          </ol>
+        </article>
+        <article id="cook-noodles">
+          <h4>Noodles:</h4>
+          <ol>
+            <li>Microwave noodles in 15-30 second intervals until warm.</li>
+            <li>Once the noodles are warm, separate the noodles by hand until they are
+              all separated.
+            </li>
+            <li>Oil pan at medium heat and add the noodles to the pan.</li>
+            <li>Immediately spread out and flatten the noodles evenly in the pan.</li>
+            <li>Wait until the bottom of the noodles become crispy, then stire the noodles
+              (flip the noodles if possible)<br>
+              *When stirring the noodles, take the spatula/mixing tool press down on the
+              noodles at an angle and do a zigzag motion around the pan.
+            </li>
+            <li>If the noodles look too dry, add a teaspoon of cooking sake
+              (cooking alcohol) to the noodles.
+            </li>
+          </ol>
+        </article>
+        <article id="final-step">
+          <h4>Put it all together!</h4>
+          <ol>
+            <li>When the noodles are cooked, add the cooked vegetables and meat to
+              the noodle pan and mix.
+            </li>
+            <li>Add 2 tablespoons of Yakisoba sauce to the pan and mix. </li>
+            <li>Taste the yakisoba, if you want to add more sauce, add more until
+              you are satisfied.
+            </li>
+            <li>When the sauce is evenly mixed with the noodles, turn off the heat and
+              transfer to a serving bowl/plate quickly. (DON'T LET IT SIT TOO LONG!)
+            </li>
+            <li>Enjoy!</li>
+          </ol>
+        </article>
+      </section><br>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+/*
+  Name: Nina Okubo
+  Date: October 16th 2021
+  Section: AC, TAs: Taylor Gotfrid and Ludvig Liljenberg
+
+  This is the styles.css page for my Creative Project 2 - Yakisoba Recipe.
+  It has a warm red, yellow, and black theme
+*/
+
+html {
+  background-color: #FDE270;
+  display: flex;
+}
+
+html, button {
+  justify-content: center;
+}
+
+body {
+  font-family: 'Francois One', sans-serif;
+  color: #213140;
+}
+
+body > #intro {
+  margin: auto;
+  padding: 10px;
+  flex: wrap;
+}
+
+#intro {
+  text-align: center;
+}
+
+#intro > #yakisoba-pics > .yakisoba {
+  width: 300px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #AD4940;
+}
+
+button {
+  width: 20vw;
+  height: 15vh;
+  border-radius: 20px;
+  background-color: #ef5151;
+  border: 5px dashed #213140;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+button, h3 {
+  font-size: 20px;
+}
+
+h3 {
+  color: #ef5151;
+}
+
+#follow-recipe > section {
+  width: 600px;
+  border: 5px dashed #213140;
+  margin-bottom: 10px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body > #follow-recipe > #ingre-list,
+body > #follow-recipe > #ingre-prep,
+body > #follow-recipe > #start-cooking {
+  display: none;
+}
