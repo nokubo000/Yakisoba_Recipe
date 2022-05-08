@@ -1,9 +1,5 @@
 /**
- * Name: Nina Okubo
- * Date: October 16th 2021
- * Section: AC, TAs: Taylor Gotfrid and Ludvig Liljenberg
- *
- * This is the JS to implement the UI for my Creative Project 2 - Yakisoba Recipe.
+ * This is the JS to implement the UI for my project - Yakisoba Recipe.
  * It takes the user to different parts of the recipe based on user input.
  */
 "use strict";
